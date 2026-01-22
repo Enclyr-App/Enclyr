@@ -1,0 +1,29 @@
+# Rust
+target/
+**/target/
+Cargo.lock
+**/*.rlib
+**/*.a
+**/*.so
+**/*.dylib
+**/*.exe
+
+# Tauri / UI builds
+ui/**/build/
+ui/**/dist/
+ui/**/node_modules/
+
+# Dart / Flutter
+ui/**/.dart_tool/
+ui/**/.flutter-plugins
+ui/**/.flutter-plugins-dependencies
+
+# General
+.env
+*.log
+*.tmp
+*.bak
+.cache/
+.idea/
+.vscode/
+.DS_Store
